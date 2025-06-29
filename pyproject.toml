@@ -1,0 +1,25 @@
+[project]
+name = "autodashboard"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi",
+    "uvicorn[standard]",
+    "streamlit",
+    "gradio",
+    "langchain",
+    "langgraph",
+    "google-generativeai",
+    "langchain-google-genai",
+    "plotly",
+    "seaborn",
+    "matplotlib",
+    "pandas",
+    "openpyxl",
+    "reportlab",
+    "kaleido",
+    "requests",
+    "python-dotenv"
+]
